@@ -41,7 +41,7 @@ html {
 
 ul li {
     list-style: none;
-    
+
     justify-content: space-between;
     padding: 10px;
 }
@@ -61,55 +61,57 @@ ul li a {
 
 
 
-h1{
+h1 {
     font-size: 4em;
     margin-bottom: 10px;
 }
 
-h2{
+h2 {
     margin-bottom: 20px;
     font-size: 2em;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.small-text{
+.small-text {
     font-size: 12px;
 }
 
-.grey-text{
+.grey-text {
     color: grey;
 }
 
 /* border utilities */
 
-.border{
+.border {
     border: 1px solid grey;
 }
 
-.border-bottom{
+.border-bottom {
     border-bottom: 1px solid grey;
 }
+
 /* margin e padding utilities */
 
-.m-bottom-80{
+.m-bottom-80 {
     margin-bottom: 80px;
 
 }
 
-.m-top-80{
+.m-top-80 {
     margin-top: 80px;
 }
 
-.m-top-50{
+.m-top-50 {
     margin-top: 50px;
 }
 
-.p-20{
+.p-20 {
     padding: 0 20px;
 }
+
 /* button utilities */
 
 .button {
@@ -141,6 +143,10 @@ h2{
     justify-content: space-between;
 }
 
+.f-wrap {
+    flex-wrap: wrap;
+}
+
 /* container */
 
 .container {
@@ -168,7 +174,36 @@ h2{
     background-color: var(--color-white);
 }
 
+.bg-lightgrey {
+    background-color: var(--color-grey);
+}
+.bg-green{
+    background-color: var(--color-logo-green);
+}
 
+.bg-bordeaux{
+    background-color: var(--color-logo-second);
+}
+
+.bg-third{
+    background-color: var(--color-logo-third);
+}
+
+.bg-red{
+    background-color: var(--color-logo-red);
+}
+
+.bg-lightred{
+    background-color: var(--color-logo-light-red);
+}
+
+.bg-blue{
+    background-color: var(--color-blue);
+}
+
+.bg-yellow{
+    background-color: var(--color-logo-yellow);
+}
 
 /* header */
 
@@ -194,102 +229,153 @@ nav {
 
 /* main */
 
-i{
+i {
     color: var(--color-dark);
     font-size: 2em;
 }
-span{
+
+span {
     display: block;
     margin-top: 25px;
 }
 
-.monthly-invoice{
+.monthly-invoice {
     margin-right: 40px;
 }
 
-.jumbo-content{
+.jumbo-content {
     position: relative;
     top: 100px;
 }
+
 .jumbo-text {
     flex-basis: 30%;
 }
-.jumbo-text p{
+
+.jumbo-text p {
     margin-bottom: 25px;
 }
+
 .jumbo-image {
     flex-basis: 70%
 }
 
-.jumbo-image img{
+.jumbo-image img {
     width: 100%;
     display: block;
 }
 
-main section:nth-child(2){
+main section:nth-child(2) {
     margin-top: 110px;
 }
 
-input{
+input {
     text-align: center;
 }
-.invoice{
+
+.invoice {
     line-height: 3;
     font-size: 12px;
     margin-top: 60px;
     margin-bottom: 30px;
 }
 
-#professional, #advanced, #enterprise{
+#professional,
+#advanced,
+#enterprise {
     width: calc((100% - 60px) / 3);
     gap: 30px;
     margin-top: 10px;
 }
 
-#professional, #advanced, #enterprise, h3{
+#professional,
+#advanced,
+#enterprise,
+h3 {
     margin-bottom: 5px;
     margin-top: 10px;
 }
 
-#professional, #advanced, #enterprise, h4{
+#professional,
+#advanced,
+#enterprise,
+h4 {
     margin-bottom: 5px;
     margin-top: 80px;
 }
 
-.p-20 p{
+.p-20 p {
     margin-top: 20px;
     font-size: 14px;
 }
 
-.fa-check{
-   color: var(--color-blue);
-   font-size: 16px;
-   font-weight: bold;
+.fa-check {
+    color: var(--color-blue);
+    font-size: 16px;
+    font-weight: bold;
 }
 
 
-.category{
+.category {
     padding: 5px;
     font-size: 12px;
 }
-.plan span{
+
+.plan span {
     display: inline-block;
 }
 
-#enterprise-sez{
+#enterprise-sez {
     margin-top: ;
 }
-.sales-section{
+
+.sales-section {
     flex-basis: 40%;
     padding: 20px 13px 17px 100px;
 }
 
-.enterprise-descr{
+.enterprise-descr {
     flex-basis: 60%;
     padding: 20px;
 }
 
+.brands>div {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
 
+.logo-brand {
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-brand img {
+    display: block;
+    width: 60%;
+    height: 60%;
+    filter: invert();
+
+}
+.small-dimension img{
+    display: block;
+    width: 50%;
+    height: 10%;
+}
+
+.designit{
+    overflow-y: auto;
+}
+
+.designit img{
+    width: 60%;
+    padding: 15px 20px;
+    margin-bottom: 40px;
+}
+.designit p{
+    padding: 15px 20px;
+}
 /* footer */
 footer {
     color: var(--color-white);
