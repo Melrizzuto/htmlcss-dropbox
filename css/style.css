@@ -154,6 +154,10 @@ span{
     display: block;
 }
 
+main section:nth-child(2){
+    margin-top: 70px;
+}
+
 /* footer */
 footer {
     color: var(--color-white);
