@@ -15,7 +15,10 @@ html {
     scroll-behavior: smooth;
 }
 
-/* customer properties */
+/* custom properties */
+
+
+
 :root {
     --color-light-blue: #b4d0e7;
     --color-dark: #000000;
@@ -31,6 +34,8 @@ html {
     --color-logo-blue: #0d2481;
     --color-logo-yellow: #ffd830;
 }
+
+
 
 /* utilities list*/
 
@@ -49,11 +54,22 @@ ul li a {
 .debug {
     border: 1px solid red;
 }
+
+
 /* utilities text */
+
+
+
 h1{
     font-size: 4em;
     margin-bottom: 10px;
 }
+
+h2{
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
 .text-center{
     text-align: center;
 }
@@ -75,10 +91,27 @@ h1{
 .border-bottom{
     border-bottom: 1px solid grey;
 }
+/* margin utilities */
+
+.m-bottom-80{
+    margin-bottom: 80px;
+
+}
+
+.m-top-80{
+    margin-top: 80px;
+}
 
 /* button utilities */
 
 .button {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    padding: 8px 10px;
+    text-decoration: none;
+}
+
+.button-large {
     background-color: var(--color-blue);
     color: var(--color-white);
     padding: 8px 15px;
@@ -184,24 +217,43 @@ span{
 }
 
 main section:nth-child(2){
-    margin-top: 70px;
+    margin-top: 90px;
 }
 
+input{
+    text-align: center;
+}
 .invoice{
-    margin-top: 10px;
+    line-height: 3;
+    font-size: 12px;
+    margin-top: 60px;
+    margin-bottom: 30px;
 }
 
 #professional, #advanced, #enterprise{
     width: calc((100% - 8px) / 3);
     gap: 4px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #professional, #advanced, #enterprise, h3{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#professional, #advanced, #enterprise, p{
     margin-top: 20px;
 }
 
+
+
+.plan span{
+    display: inline-block;
+}
+
+.p-20{
+    padding: 0 20px;
+}
 
 /* footer */
 footer {
