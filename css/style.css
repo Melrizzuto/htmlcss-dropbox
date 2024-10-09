@@ -41,7 +41,7 @@ html {
 
 ul li {
     list-style: none;
-    cursor: pointer;
+    
     justify-content: space-between;
     padding: 10px;
 }
@@ -49,6 +49,7 @@ ul li {
 ul li a {
     text-decoration: none;
     color: var(--color-dark);
+    cursor: pointer;
 }
 
 .debug {
@@ -112,6 +113,8 @@ h2{
 }
 
 .button-large {
+    font-size: 14px;
+    width: 50px;
     background-color: var(--color-blue);
     color: var(--color-white);
     padding: 8px 15px;
@@ -231,8 +234,8 @@ input{
 }
 
 #professional, #advanced, #enterprise{
-    width: calc((100% - 8px) / 3);
-    gap: 4px;
+    width: calc((100% - 60px) / 3);
+    gap: 30px;
     margin-top: 10px;
 }
 
@@ -248,6 +251,7 @@ input{
 
 #professional, #advanced, #enterprise, p{
     margin-top: 20px;
+    font-size: 14px;
 }
 
 
