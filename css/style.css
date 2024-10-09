@@ -163,6 +163,19 @@ h2 {
     text-decoration: none;
 }
 
+.btn-white-small{
+    text-align: center;
+    line-height: 3;
+    display: block;
+    background-color: var(--color-white);
+    color: var(--color-dark);
+    border: 1px solid var(--color-dark);
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    text-decoration: none;
+}
+
 /* position utilities */
 
 .p-relative {
@@ -364,6 +377,34 @@ h4 {
     display: inline-block;
 }
 
+/* partners section */
+#image-sez{
+    flex-basis: 60%;
+    padding: 40px;
+}
+#image-sez img{
+    width: 100%;
+    display: block;
+}
+
+#text-sez{
+    flex-basis: 40%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+#text-sez p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+#btn-partners{
+    align-self: flex-start;
+}
+
 /* enterprise section */
 
 .sales-section {
@@ -395,7 +436,7 @@ h4 {
 }
 
 #customer a{
-    font-size: 10px;
+    font-size: 12px;
 }
 
 /* Brands section */
