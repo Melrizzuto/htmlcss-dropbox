@@ -241,6 +241,11 @@ input{
     margin-top: 10px;
 }
 
+#professional, #advanced, #enterprise, h4{
+    margin-bottom: 5px;
+    margin-top: 80px;
+}
+
 #professional, #advanced, #enterprise, p{
     margin-top: 20px;
 }
