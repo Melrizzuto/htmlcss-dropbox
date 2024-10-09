@@ -1,16 +1,17 @@
 /* general */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Open Sans", sans-serif;
-    background-color: var(--color-white) ;
+    background-color: var(--color-white);
+    color: var(--color-dark);
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -28,56 +29,71 @@ html{
     --color-logo-light-red: #ff1c1c;
     --color-logo-red: #d5001f;
     --color-logo-blue: #0d2481;
-    --color-logo-yellow: #ffd830;
+    --color-logo-yellow: #ffd830;
 }
 
-/* utilities */
+/* utilities list*/
 
-ul li{
+ul li {
     list-style: none;
     cursor: pointer;
     justify-content: space-between;
     padding: 10px;
 }
-ul li a{
+
+ul li a {
     text-decoration: none;
     color: var(--color-dark);
 }
-.debug{
+
+.debug {
     border: 1px solid red;
 }
+/* utilities text */
+h1{
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
 /* button utilities */
-.button{
+
+.button {
     background-color: var(--color-blue);
     color: var(--color-white);
-    padding: 5px 10px;
+    padding: 8px 15px;
+    text-decoration: none;
 }
+
 /* utilities flex */
-.d-flex{
+
+.d-flex {
     display: flex;
 }
 
 /* container */
-.container{
-    margin: 0 auto;
-    max-width: 1200px;
-}
 
-.small-container{
+.container {
     margin: 0 auto;
     max-width: 1000px;
+    padding: 20px;
+}
+
+.small-container {
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 /* Background color */
-.bg-lightblue{
+
+.bg-lightblue {
     background-color: var(--color-light-blue);
 }
 
-.bg-black{
+.bg-black {
     background-color: var(--color-dark);
 }
 
-.bg-white{
+.bg-white {
     background-color: var(--color-white);
 }
 
@@ -85,30 +101,60 @@ ul li a{
 
 /* header */
 
-header{
+header {
     font-size: 14px;
 }
 
-nav{
+nav {
     position: fixed;
     width: 100%;
     justify-content: space-between;
+    z-index: 1000;
 }
 
-#logo{
+#logo {
     padding: 10px;
     margin-right: 20px;
 }
-#logo img{
-    width: 100%
 
+#logo img {
+    width: 100%
 }
+
 /* main */
-#Jumbo{
-    padding-top: 60px;
+
+i{
+    color: var(--color-dark);
+    font-size: 2em;
 }
+span{
+    display: block;
+    margin-top: 25px;
+}
+
+#Jumbo {
+    padding-top: 10px;
+}
+.jumbo-content{
+    position: relative;
+    top: 70px;
+}
+.jumbo-text {
+    flex-basis: 30%;
+}
+.jumbo-text p{
+    margin-bottom: 25px;
+}
+.jumbo-image {
+    flex-basis: 70%
+}
+
+.jumbo-image img{
+    width: 100%;
+    display: block;
+}
+
 /* footer */
-footer{
+footer {
     color: var(--color-white);
 }
-
