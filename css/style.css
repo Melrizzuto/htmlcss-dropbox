@@ -150,7 +150,7 @@ span{
 }
 
 .monthly-invoice{
-    margin-right: 10px;
+    margin-right: 40px;
 }
 
 #Jumbo {
@@ -178,6 +178,11 @@ span{
 main section:nth-child(2){
     margin-top: 70px;
 }
+
+#professional, #advanced, #enterprise{
+    
+}
+
 
 /* footer */
 footer {
