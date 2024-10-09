@@ -36,6 +36,21 @@ html {
     --color-logo-yellow: #ffd830;
 }
 
+/* general settings */
+
+.debug {
+    border: 1px solid red;
+}
+
+i {
+    color: var(--color-dark);
+    font-size: 2em;
+}
+
+span {
+    display: block;
+    margin-top: 25px;
+}
 
 
 /* utilities list*/
@@ -53,18 +68,15 @@ ul li a {
     cursor: pointer;
 }
 
-.debug {
-    border: 1px solid red;
-}
 
 
 /* utilities text */
 
 
-hr{
+hr {
     color: grey;
-    width:20%;
-    text-align:left;
+    width: 20%;
+    text-align: left;
     margin-bottom: 40px
 }
 
@@ -139,14 +151,25 @@ h2 {
     height: 30px;
     text-decoration: none;
 }
+.button-white {
+    text-align: center;
+    line-height: 3;
+    display: block;
+    font-size: 10px;
+    background-color: var(--color-white);
+    color: var(--color-dark);
+    width: 200px;
+    height: 30px;
+    text-decoration: none;
+}
 
 /* position utilities */
 
-.p-relative{
+.p-relative {
     position: relative;
 }
 
-.p-absolute{
+.p-absolute {
     position: absolute;
 }
 
@@ -194,35 +217,36 @@ h2 {
 .bg-lightgrey {
     background-color: var(--color-grey);
 }
-.bg-green{
+
+.bg-green {
     background-color: var(--color-logo-green);
 }
 
-.bg-lightgreen{
+.bg-lightgreen {
     background-color: var(--color-light-green);
 }
 
-.bg-bordeaux{
+.bg-bordeaux {
     background-color: var(--color-logo-second);
 }
 
-.bg-third{
+.bg-third {
     background-color: var(--color-logo-third);
 }
 
-.bg-red{
+.bg-red {
     background-color: var(--color-logo-red);
 }
 
-.bg-lightred{
+.bg-lightred {
     background-color: var(--color-logo-light-red);
 }
 
-.bg-blue{
+.bg-blue {
     background-color: var(--color-blue);
 }
 
-.bg-yellow{
+.bg-yellow {
     background-color: var(--color-logo-yellow);
 }
 
@@ -250,19 +274,8 @@ nav {
 
 /* main */
 
-i {
-    color: var(--color-dark);
-    font-size: 2em;
-}
 
-span {
-    display: block;
-    margin-top: 25px;
-}
-
-.monthly-invoice {
-    margin-right: 40px;
-}
+/* jumbotron section */
 
 .jumbo-content {
     position: relative;
@@ -292,6 +305,12 @@ main section:nth-child(2) {
 
 input {
     text-align: center;
+}
+
+/* plan section */
+
+.monthly-invoice {
+    margin-right: 40px;
 }
 
 .invoice {
@@ -345,21 +364,41 @@ h4 {
     display: inline-block;
 }
 
+/* enterprise section */
 
 .sales-section {
     flex-basis: 40%;
-    padding: 20px 13px 17px 100px;
+    padding-top: 30px;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: flex-start;
 }
-#enterprise-call{
+
+#enterprise-call {
     margin-top: 40px;
 }
+
 .enterprise-descr {
     flex-basis: 60%;
     padding: 20px;
 }
 
+/* customer section */
+#customer{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 20px 0px;
+}
+#customer h2 {
+    font-size: 3em;
+    margin-bottom: 40px;
+}
 
+#customer a{
+    font-size: 10px;
+}
 
+/* Brands section */
 .brands>div {
     width: calc(100% / 3);
     height: calc(100vw / 3);
@@ -371,18 +410,21 @@ h4 {
     justify-content: center;
     align-items: center;
 }
-.second-bg{
+
+.second-bg {
     width: 90%;
     height: 90%;
     justify-content: center;
     align-items: center;
 }
-.second-bg img{
+
+.second-bg img {
     display: block;
     width: 60%;
     height: 60%;
     filter: invert();
 }
+
 .logo-brand img {
     display: block;
     width: 60%;
@@ -390,27 +432,50 @@ h4 {
     filter: invert();
 
 }
-.small-dimension img{
+
+.small-dimension img {
     display: block;
     width: 50%;
     height: 10%;
 }
 
-.designit{
+.designit {
     overflow-y: auto;
 }
 
-.designit img{
+.designit img {
     width: 60%;
-    padding: 15px 20px;
+    padding: 30px 20px;
     margin-bottom: 40px;
 }
-.designit p{
+
+.designit p {
     padding: 15px 20px;
 }
 
-.designit hr{
+.designit hr {
     margin-left: 20px;
+}
+
+/* call to action section */
+
+#call-to-action h2{
+    font-size: 2em;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    padding: 20px 0px;
+    color: var(--color-contrast);
+}
+
+.business-container{
+    flex-basis: 60%;
+}
+
+.btn-call{
+    flex-basis: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* footer */
