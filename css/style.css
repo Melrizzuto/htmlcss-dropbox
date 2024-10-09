@@ -92,7 +92,7 @@ h2{
 .border-bottom{
     border-bottom: 1px solid grey;
 }
-/* margin utilities */
+/* margin e padding utilities */
 
 .m-bottom-80{
     margin-bottom: 80px;
@@ -103,21 +103,27 @@ h2{
     margin-top: 80px;
 }
 
+.p-20{
+    padding: 0 20px;
+}
 /* button utilities */
 
 .button {
     background-color: var(--color-blue);
     color: var(--color-white);
-    padding: 8px 10px;
+    padding: 6px 12px;
     text-decoration: none;
 }
 
 .button-large {
+    text-align: center;
+    line-height: 2;
+    display: block;
     font-size: 14px;
-    width: 50px;
     background-color: var(--color-blue);
     color: var(--color-white);
-    padding: 8px 15px;
+    width: 200px;
+    height: 35px;
     text-decoration: none;
 }
 
@@ -254,15 +260,21 @@ input{
     font-size: 14px;
 }
 
+.fa-check{
+   color: var(--color-blue);
+   font-size: 16px;
+   font-weight: bold;
+}
 
 
+.category{
+    padding: 5px;
+    font-size: 12px;
+}
 .plan span{
     display: inline-block;
 }
 
-.p-20{
-    padding: 0 20px;
-}
 
 /* footer */
 footer {
