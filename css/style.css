@@ -27,6 +27,7 @@ html {
     --color-contrast: #753f63;
     --color-white: #ffffff;
     --color-logo-green: #a2d39b;
+    --color-light-green: #D1E9CD;
     --color-logo-second: #61082b;
     --color-logo-third: #0093ce;
     --color-logo-light-red: #ff1c1c;
@@ -60,6 +61,12 @@ ul li a {
 /* utilities text */
 
 
+hr{
+    color: grey;
+    width:20%;
+    text-align:left;
+    margin-bottom: 40px
+}
 
 h1 {
     font-size: 4em;
@@ -133,6 +140,16 @@ h2 {
     text-decoration: none;
 }
 
+/* position utilities */
+
+.p-relative{
+    position: relative;
+}
+
+.p-absolute{
+    position: absolute;
+}
+
 /* utilities flex */
 
 .d-flex {
@@ -179,6 +196,10 @@ h2 {
 }
 .bg-green{
     background-color: var(--color-logo-green);
+}
+
+.bg-lightgreen{
+    background-color: var(--color-light-green);
 }
 
 .bg-bordeaux{
@@ -245,7 +266,7 @@ span {
 
 .jumbo-content {
     position: relative;
-    top: 100px;
+    top: 70px;
 }
 
 .jumbo-text {
@@ -276,8 +297,7 @@ input {
 .invoice {
     line-height: 3;
     font-size: 12px;
-    margin-top: 60px;
-    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 #professional,
@@ -301,7 +321,7 @@ h3 {
 #enterprise,
 h4 {
     margin-bottom: 5px;
-    margin-top: 80px;
+    margin-top: 30px;
 }
 
 .p-20 p {
@@ -325,19 +345,20 @@ h4 {
     display: inline-block;
 }
 
-#enterprise-sez {
-    margin-top: ;
-}
 
 .sales-section {
     flex-basis: 40%;
     padding: 20px 13px 17px 100px;
 }
-
+#enterprise-call{
+    margin-top: 40px;
+}
 .enterprise-descr {
     flex-basis: 60%;
     padding: 20px;
 }
+
+
 
 .brands>div {
     width: calc(100% / 3);
@@ -350,7 +371,18 @@ h4 {
     justify-content: center;
     align-items: center;
 }
-
+.second-bg{
+    width: 90%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+}
+.second-bg img{
+    display: block;
+    width: 60%;
+    height: 60%;
+    filter: invert();
+}
 .logo-brand img {
     display: block;
     width: 60%;
@@ -376,6 +408,11 @@ h4 {
 .designit p{
     padding: 15px 20px;
 }
+
+.designit hr{
+    margin-left: 20px;
+}
+
 /* footer */
 footer {
     color: var(--color-white);
