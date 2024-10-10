@@ -52,6 +52,7 @@ span {
     display: block;
     margin-top: 25px;
 }
+
 /* utilities list*/
 
 ul li {
@@ -119,7 +120,7 @@ h2 {
 
 }
 
-.m-bot-20{
+.m-bot-20 {
     margin-bottom: 20px;
 }
 
@@ -285,20 +286,22 @@ h2 {
 }
 
 /* header */
+.startbtn {
+    justify-content: center;
+    align-items: center;
+}
 
-.startbtn{
+.logodrop {
     justify-content: center;
     align-items: center;
 }
-.logodrop{
-    justify-content: center;
-    align-items: center;
-}
-.logodrop img{
+
+.logodrop img {
     height: 20px;
- width: 100%;
- display: block;
+    width: 100%;
+    display: block;
 }
+
 nav {
     position: fixed;
     height: 50px;
@@ -309,7 +312,7 @@ nav {
     align-items: center;
 }
 
-nav li{
+nav li {
     line-height: 2;
     padding: 20px;
 }
@@ -373,12 +376,12 @@ main section:nth-child(2) {
     margin-top: 20px;
 }
 
-.radio-btn{
+.radio-btn {
     width: 25px;
     background-color: #eee;
 }
 
-.invoice label{
+.invoice label {
     margin-right: 40px;
 }
 
@@ -429,15 +432,23 @@ h4 {
 }
 
 /* business features settings */
-#business-feat{
+#business-feat {
     margin-top: 60px;
 
 }
+
+#business-feat h3{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
 .row {
     gap: 5px;
     flex-wrap: wrap;
 }
-
+.r-second{
+    margin-top: 15px;
+}
 .col {
     width: calc((100% - 10px) / 3);
     height: 100%;
@@ -445,6 +456,7 @@ h4 {
     bottom: 0;
     left: 0;
 }
+
 .col img {
     width: 100%;
     display: block;
