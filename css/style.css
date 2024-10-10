@@ -52,8 +52,6 @@ span {
     display: block;
     margin-top: 25px;
 }
-
-
 /* utilities list*/
 
 ul li {
@@ -229,7 +227,6 @@ h2 {
 .container {
     margin: 0 auto;
     max-width: 1000px;
-    padding: 20px;
 }
 
 .small-container {
@@ -431,10 +428,31 @@ h4 {
     display: inline-block;
 }
 
+/* business features settings */
+#business-feat{
+    margin-top: 60px;
+
+}
+.row {
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.col {
+    width: calc((100% - 10px) / 3);
+    height: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+.col img {
+    width: 100%;
+    display: block;
+}
+
 /* partners section */
 #image-sez {
     flex-basis: 60%;
-    padding: 40px;
 }
 
 #image-sez img {
