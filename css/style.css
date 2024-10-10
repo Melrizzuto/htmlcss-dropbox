@@ -672,7 +672,8 @@ h4 {
 
 
 /* footer */
-footer {   
+footer { 
+    padding: 20px 0px;  
     color: var(--color-white);
 }
 
