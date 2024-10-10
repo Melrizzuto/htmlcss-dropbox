@@ -304,7 +304,7 @@ h2 {
 
 nav {
     position: fixed;
-    height: 50px;
+    height: 65px;
     width: 100%;
     justify-content: space-between;
     z-index: 1000;
@@ -317,10 +317,28 @@ nav li {
     padding: 20px;
 }
 
-nav ul a:hover {
-    padding: 15px;
+nav ul>li:hover {
+    padding: 10px;
     border-bottom: 2px solid var(--color-dark);
 }
+.support {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .support-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .support:hover .support-content {
+    display: block;
+  }
 
 #logo {
     padding: 10px;
