@@ -664,9 +664,11 @@ h4 {
     position: absolute;
   }
   
-  .dropdown:hover .dropdown-content {
+  .answer-sect:hover .dropdown-content{
     display: block;
   }
+  
+
 
 /* footer */
 footer {   
