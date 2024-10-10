@@ -154,7 +154,7 @@ h2 {
     text-align: center;
     line-height: 2;
     display: block;
-    font-size: 14px;
+    font-size: 12px;
     background-color: var(--color-blue);
     color: var(--color-white);
     width: 200px;
@@ -447,7 +447,7 @@ h4 {
     flex-wrap: wrap;
 }
 .r-second{
-    margin-top: 15px;
+    margin-top: 20px;
 }
 .col {
     width: calc((100% - 10px) / 3);
