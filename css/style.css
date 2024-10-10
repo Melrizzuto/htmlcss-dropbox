@@ -637,7 +637,9 @@ h4 {
 #FAQ h2{
     margin-bottom: -45px;
 }
-
+#FAQ span{
+    display: inline;
+}
 .answer-sect{
     font-weight: bold;
     padding: 40px 0px;
@@ -652,13 +654,19 @@ h4 {
     cursor: pointer;
 }
 
-.a-content{
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
     display: none;
-}
-
- .fa-angle-down:hover .a-content{
+    position: absolute;
+  }
+  
+  .dropdown:hover .dropdown-content {
     display: block;
-}
+  }
 
 /* footer */
 footer {   
