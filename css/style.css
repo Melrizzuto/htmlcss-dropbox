@@ -664,7 +664,7 @@ h4 {
     position: absolute;
   }
   
-  .answer-sect:hover .dropdown-content{
+  .answer-sect:hover + .dropdown-content{
     display: block;
   }
   
@@ -702,4 +702,10 @@ select{
     background: transparent;
     text-decoration: none;
     margin-left: 2px;
+}
+
+.dropdown-content{
+    width: 50%;
+    margin: 0px 10px;
+    font-size: 12px;
 }
