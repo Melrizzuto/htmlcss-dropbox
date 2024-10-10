@@ -659,7 +659,35 @@ h4 {
  .fa-angle-down:hover .a-content{
     display: block;
 }
+
 /* footer */
 footer {   
     color: var(--color-white);
+}
+
+footer ul li{
+    padding-left: 0;
+}
+footer i{
+    font-size: 10px;
+    color: grey;
+}
+footer hr{
+    color: rgb(79, 77, 77);
+    width: 8%;
+    text-align: left;
+    margin-top: 40px
+}
+
+footer span{
+    font-size: 10px;
+    color: grey;
+    display: inline;
+    padding: 0;
+}
+
+form{
+    display: inline;
+    background-color: var(--color-dark);
+    text-decoration: none;
 }
