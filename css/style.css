@@ -686,8 +686,10 @@ footer span{
     padding: 0;
 }
 
-form{
-    display: inline;
-    background-color: var(--color-dark);
+select{
+    font-size: 10px;
+    color: grey;
+    background: transparent;
     text-decoration: none;
+    margin-left: 2px;
 }
