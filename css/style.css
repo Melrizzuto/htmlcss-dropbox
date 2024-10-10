@@ -39,9 +39,9 @@ html {
 
 /* general settings */
 
-.debug {
+/* .debug {
     border: 1px solid red;
-}
+} */
 
 i {
     color: var(--color-dark);
