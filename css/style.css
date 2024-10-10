@@ -289,21 +289,37 @@ h2 {
 
 /* header */
 
-header {
-    font-size: 14px;
-    
+.startbtn{
+    justify-content: center;
+    align-items: center;
 }
-
+.logodrop{
+    justify-content: center;
+    align-items: center;
+}
+.logodrop img{
+    height: 20px;
+ width: 100%;
+ display: block;
+}
 nav {
     position: fixed;
+    height: 50px;
     width: 100%;
     justify-content: space-between;
     z-index: 1000;
     box-shadow: 0px 0px 12px #2b2929;
+    align-items: center;
 }
 
-nav li a {
+nav li{
     line-height: 2;
+    padding: 20px;
+}
+
+nav ul a:hover {
+    padding: 15px;
+    border-bottom: 2px solid var(--color-dark);
 }
 
 #logo {
