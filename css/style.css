@@ -645,7 +645,6 @@ h4 {
     font-weight: bold;
     padding: 40px 0px;
     height: 50px;
-    border-bottom: 1px solid grey;
 }
 
 .fa-angle-down{
@@ -662,7 +661,6 @@ h4 {
   
   .dropdown-content {
     display: none;
-    position: absolute;
   }
   
   .answer-sect:hover + .dropdown-content{
